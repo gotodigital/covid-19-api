@@ -80,8 +80,14 @@
 			<artifactId>json</artifactId>
 			<version>20190722</version>
 		</dependency>
-		
-
+	
+                <dependency>
+                        <groupId>com.microsoft.azure</groupId>
+                        <artifactId>applicationinsights-web-auto</artifactId>
+                        <!-- or applicationinsights-web for manual web filter registration -->
+                        <!-- or applicationinsights-core for bare API -->
+                        <version>2.6.0</version>
+                </dependency>
 
 	</dependencies>
 	<build>
